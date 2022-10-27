@@ -181,9 +181,10 @@ form button{
   margin: auto;
 }
 .container{
-  max-width: 920px;
-  margin: auto;
-  margin-top: 40px;
+  max-width: 120px;
+  height: 25px;
+  margin: var(--margin);
+  padding: var(--padding);
 }
 .menu-footer{
   display: none;
