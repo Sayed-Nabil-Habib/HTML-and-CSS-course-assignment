@@ -148,20 +148,19 @@ ul li a:hover{
 
 /*footer-style*/
 .menu-footer{
-  color: var(--font-color);
-  background-color: rgba(0, 0, 0, 0.9);
-  height: 50px;
-  text-align: center;
   position: fixed;
   bottom: 0;
   left: 0;
   right: 0;
-  z-index: 100;
-  width: 100%;
+  text-align: right;
+  margin: 0px 20px 20px 0px;
+  
 }
-.footer-icon{
-  padding: 12px;
+.menu-footer a img{
+  width: 40px;
+  height: 40px;
 }
+
 
   
 @media screen and (min-width: 800px) {
