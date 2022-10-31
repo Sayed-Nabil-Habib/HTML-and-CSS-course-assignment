@@ -146,14 +146,19 @@ ul li a:hover{
 .movie-container{
   display: var(--display-flex);
   text-align:center;
-  margin: 0px;
+  margin: 10px;
 }
 .movie-container img {
   max-width: 190px;
   height: 259px;
   border-radius: var(--border-radius);
+  transition-duration: var(--transition-duration);
 }
-
+.movie-container img:hover{
+  border: 2px solid white;
+  width: 210px;
+  height: 290px;
+}
 /*footer-style*/
 .menu-footer{
   position: fixed;
