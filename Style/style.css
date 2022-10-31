@@ -67,7 +67,9 @@ ul li a{
 ul li a:hover{
   font-weight: 600;
 }
-
+.active{
+  text-decoration: underline;
+}
 .submenu{
   position: absolute;
   color: var(--font-color);
