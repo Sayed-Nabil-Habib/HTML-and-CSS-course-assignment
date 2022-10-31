@@ -17,6 +17,9 @@ body{
 --text-align: center;
 --btn-brd-radius:5px 5px 5px 5px;
 --background-color:rgb(119, 122, 119);
+--transition-duration:0.3s;
+--background-color-for-submenu:rgba(0, 0, 0, 01);
+--padding-top-submenu:20px;
 
 }
 
@@ -64,9 +67,13 @@ ul{
 ul li a{
   color: var(--font-color);
   padding: 10px;
-  font-weight: 100;
+  font-weight: 300;
   font-size: var(--mobile-menu-font-size);
   text-decoration: none;
+  transition-duration: var(--transition-duration);
+}
+ul li a:hover{
+  font-weight: 600;
 }
 
 .submenu{
@@ -75,9 +82,9 @@ ul li a{
   font-weight: 100;
   width: 140px;
   display: none;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: var(--background-color-for-submenu);
   line-height: 3;
- 
+  padding-top: var(--padding-top-submenu);
   cursor: pointer;
 }
 
@@ -239,6 +246,9 @@ input [type=number]{
 }
 .logo-orginal{
   display: block;
+}
+.submenu{
+  line-height: 2;
 }
 }
 

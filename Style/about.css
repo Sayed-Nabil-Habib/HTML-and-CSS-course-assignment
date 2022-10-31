@@ -12,6 +12,9 @@ body{
 --button-tex-color:black;
 --border-radius:8px 8px 8px 8px;
 --display-flex: flex column;
+--transition-duration:0.3s;
+--background-color-for-submenu:rgba(0, 0, 0, 01);
+--padding-top-submenu:20px;
 
 }
 
@@ -59,9 +62,13 @@ ul{
 ul li a{
   color: var(--font-color);
   padding: 10px;
-  font-weight: 100;
+  font-weight: 300;
   font-size: var(--mobile-menu-font-size);
   text-decoration: none;
+  transition-duration: var(--transition-duration);
+}
+ul li a:hover{
+  font-weight: 600;
 }
 
 .submenu{
@@ -70,9 +77,10 @@ ul li a{
   font-weight: 100;
   width: 140px;
   display: none;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: var(--background-color-for-submenu);
   line-height: 3;
   cursor: pointer;
+  padding-top: var(--padding-top-submenu);
 }
 
 .menu li:hover > .submenu {
@@ -124,3 +132,7 @@ ul li a{
   .logo-orginal{
     display: block;
   }
+  .submenu{
+  line-height: 2;
+}
+}

@@ -15,6 +15,9 @@ body{
 --margin:5px;
 --padding:5px;
 --button-color: rgb(213, 73, 73);
+--transition-duration:0.3s;
+--background-color-for-submenu:rgba(0, 0, 0, 01);
+--padding-top-submenu:20px;
 
 }
 
@@ -67,20 +70,25 @@ ul{
 ul li a{
   color: var(--font-color);
   padding: 10px;
-  font-weight: 100;
+  font-weight: 300;
   font-size: var(--mobile-menu-font-size);
+  transition-duration: var(--transition-duration);
   text-decoration: none;
+}
+ul li a:hover{
+  font-weight: 600;
 }
 
 .submenu{
   position: absolute;
   color: var(--font-color);
-  font-weight: 100;
+  font-weight: 300;
   width: 140px;
   display: none;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: var(--background-color-for-submenu);
   line-height: 3;
   cursor: pointer;
+  padding-top: var(--padding-top-submenu);
 }
 
 .menu li:hover > .submenu {
@@ -196,5 +204,8 @@ form button{
 }
 .logo-orginal{
   display: block;
+}
+.submenu{
+  line-height: 2;
 }
 }

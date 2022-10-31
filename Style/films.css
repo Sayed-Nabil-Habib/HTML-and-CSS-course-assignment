@@ -14,6 +14,8 @@ body{
 --display-flex: flex column;
 --text-align: center;
 --btn-brd-radius:5px 5px 5px 5px;
+--transition-duration:0.3s;
+--background-color-for-submenu:rgba(0, 0, 0, 01);
 }
 
 /*Header-style-start*/
@@ -60,9 +62,13 @@ ul{
 ul li a{
   color: var(--font-color);
   padding: 10px;
-  font-weight: 100;
+  font-weight: 300;
   font-size: var(--mobile-menu-font-size);
+  transition-duration: var(--transition-duration);
   text-decoration: none;
+}
+ul li a:hover{
+  font-weight: 600;
 }
 
 .submenu{
@@ -71,9 +77,9 @@ ul li a{
   font-weight: 100;
   width: 140px;
   display: none;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: var(--background-color-for-submenu);
   line-height: 3;
- 
+  padding-top: 20px;
   cursor: pointer;
 }
 
@@ -190,6 +196,9 @@ ul li a{
   }
   .logo-orginal{
     display: block;
+  }
+  .submenu{
+    line-height: 2;
   }
 }
   
