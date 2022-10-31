@@ -1,3 +1,6 @@
+*{
+  padding:0;
+}
 body{
   background-color: black;
   font-family: 'Poppins', sans-serif;
@@ -16,6 +19,8 @@ body{
 --btn-brd-radius:5px 5px 5px 5px;
 --transition-duration:0.3s;
 --background-color-for-submenu:rgba(0, 0, 0, 01);
+--padding-left-submenu:20px;
+--padding-top-submenu:20px;
 }
 
 /*Header-style-start*/
@@ -81,7 +86,8 @@ ul li a:hover{
   display: none;
   background-color: var(--background-color-for-submenu);
   line-height: 3;
-  padding-top: 20px;
+  padding-top: var(--padding-top-submenu);
+  padding-left:var(--padding-left-submenu);
   cursor: pointer;
 }
 

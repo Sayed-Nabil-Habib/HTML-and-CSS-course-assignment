@@ -1,3 +1,6 @@
+*{
+  padding: 0;
+}
 body{
   background-color: black;
   font-family: 'Poppins', sans-serif;
@@ -14,6 +17,8 @@ body{
 --display-flex: flex column;
 --transition-duration:0.3s;
 --background-color-for-submenu:rgba(0, 0, 0, 01);
+--padding-left-submenu:20px;
+--padding-top-submenu:20px;
 
 }
 
@@ -79,7 +84,8 @@ ul li a:hover{
   background-color:var(--background-color-for-submenu);
   line-height: 3;
   cursor: pointer;
-  padding-top: 20px;
+  padding-top: var(--padding-top-submenu);
+  padding-left: var(--padding-left-submenu);
 }
 
 .menu li:hover > .submenu {
