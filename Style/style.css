@@ -155,6 +155,7 @@ ul li a:hover{
   transition-duration: var(--transition-duration);
 }
 .movie-container img:hover{
+  background: var(--background-color-for-submenu);
   border: 2px solid white;
   width: 210px;
   height: 290px;
