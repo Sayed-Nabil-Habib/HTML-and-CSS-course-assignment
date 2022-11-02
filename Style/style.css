@@ -238,12 +238,19 @@ ul li a:hover{
 .submenu{
   line-height: 2;
 }
-.slider{
+.slider {
   max-width: 800px;
-  
- 
-  
 
+  display: flex;
+  flex-direction: column;
+ 
+
+}
+.slide {
+  width: auto;
+  flex-shrink: 0;
+ 
+}
   
 }
 }
