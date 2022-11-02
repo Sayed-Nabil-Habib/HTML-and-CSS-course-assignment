@@ -115,11 +115,12 @@ ul li a:hover{
   padding: 20px;
   line-height: 0.7;
 }
+
 .successful{
   font-weight: 800;
   letter-spacing: 2px;
   font-size: 30px;
-  color: rgb(10, 212, 144);
+  color: #02ec88;
 }
 .duration{
   font-weight: 300;
