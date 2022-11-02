@@ -121,8 +121,13 @@ ul li a:hover{
   width: 160px;
   height: 30px;
   border-radius: var(--btn-brd-radius);
- 
+  transition-duration: var(--transition-duration);
+  box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.2), 0 5px 20px 0 rgba(0, 0, 0, 0.19);
 }
+.hero-btn:hover{
+  box-shadow: 5px 5px 15px 0 rgba(255, 255, 255, 0.24),0 5px 15px 0 rgba(255, 255, 255, 0.19);
+}
+  
 .hero-btn a{
   text-decoration: none;
   color: var(--font-color);

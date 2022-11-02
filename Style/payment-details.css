@@ -193,6 +193,7 @@ input [type=number]{
   flex-direction: row;
   justify-content: space-between;
   margin: 0px 0px 0px 0px;
+  j
 }
 
 .pay-now{
@@ -207,7 +208,14 @@ input [type=number]{
   width: 160px;
   height: 30px;
   border-radius: var(--btn-brd-radius);
+  transition-duration: var(--transition-duration);
+  box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.2), 0 5px 20px 0 rgba(0, 0, 0, 0.19);
 }
+.pay-now:hover{
+  box-shadow: 5px 5px 15px 0 rgba(255, 255, 255, 0.24),0 5px 15px 0 rgba(255, 255, 255, 0.19);
+}
+  
+
 
 /*footer-style*/
 .menu-footer{
