@@ -160,6 +160,20 @@ ul li a:hover{
   width: 210px;
   height: 290px;
 }
+.slider {
+  max-width: 800px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+.slide {
+  width: auto;
+  flex-shrink: 0;
+ 
+}
+
 /*footer-style*/
 .menu-footer{
   position: fixed;
