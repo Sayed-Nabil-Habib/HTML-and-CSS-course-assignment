@@ -156,9 +156,8 @@ ul li a:hover{
 }
 .movie-container img:hover{
   background: var(--background-color-for-submenu);
-  border: 2px solid white;
-  width: 210px;
-  height: 290px;
+  border: 1px solid white;
+  
 }
 
 /*slider*/
