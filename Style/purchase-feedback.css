@@ -115,18 +115,6 @@ ul li a:hover{
   padding: 20px;
   line-height: 0.7;
 }
-
-
-.vipss-logo, .visa-logo {
-  width: 80px;
-  height: 35px;
-}
-.title{
-  font-weight: 300;
-  letter-spacing: 2px;
-  font-size: 20px;
-  
-}
 .successful{
   font-weight: 800;
   letter-spacing: 2px;
@@ -134,25 +122,17 @@ ul li a:hover{
   color: rgb(10, 212, 144);
 }
 .duration{
-  font-weight: 100;
-}
-.payment-methods{
   font-weight: 300;
 }
-.payment-logo{
 
- display: flex ;
- flex-direction: row;
- justify-content: center;
 
-}
 .add-to-card{
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 8px;
   margin: auto;
-  background-color: rgb(213, 73, 73);
+  background-color: #E50914;
   width: 160px;
   height: 30px;
   border-radius: var(--btn-brd-radius);

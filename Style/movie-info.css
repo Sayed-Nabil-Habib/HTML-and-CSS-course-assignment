@@ -128,7 +128,7 @@ ul li a:hover{
   font-size: 30px;
 }
 .duration,.price{
-  font-weight: 100;
+  font-weight: 300;
 }
 .payment-methods{
   font-weight: 300;
@@ -146,7 +146,7 @@ ul li a:hover{
   justify-content: center;
   padding: 8px;
   margin: auto;
-  background-color: rgb(213, 73, 73);
+  background-color: #E50914;
   width: 160px;
   height: 30px;
   border-radius: var(--btn-brd-radius);
