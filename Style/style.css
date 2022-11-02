@@ -238,4 +238,12 @@ ul li a:hover{
 .submenu{
   line-height: 2;
 }
+.slider{
+  max-width: 800px;
+  height: 350px;
+ 
+  
+
+  
+}
 }
