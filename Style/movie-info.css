@@ -10,6 +10,7 @@ body{
 
 :root{
 --font-color:white;
+--background-color:#484847;
 --mobile-menu-font-size:16px;
 --mobile-version-font-weight:200;
 --button-tex-color:black;
@@ -105,7 +106,7 @@ ul li a:hover{
   text-align: var(--text-align);
   max-width: 800px;
   margin: auto;
-  background-color: rgb(119, 122, 119);
+  background-color: var(--background-color);
   padding: 20px;
 
 }

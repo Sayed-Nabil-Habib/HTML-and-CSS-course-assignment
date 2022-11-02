@@ -29,7 +29,7 @@ header{
   max-width: 800px;
   margin: auto;
   margin-top: 10px;
-  height: 500px;
+  
   width: 100%;
 }
 nav{
@@ -95,6 +95,7 @@ ul li a:hover{
 }
 
 .main{
+  margin-top: 0px;
   color: var(--font-color);
   max-width: 800px;
   margin: auto;
@@ -107,8 +108,9 @@ ul li a:hover{
   font-weight: 400;
   text-decoration: underline;
 }
+
 /*footer-style*/
-/*footer-style*/
+
 .menu-footer{
   position: fixed;
   bottom: 0;

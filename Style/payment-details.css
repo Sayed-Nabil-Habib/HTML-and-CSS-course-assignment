@@ -19,11 +19,12 @@ body{
 --display-flex: flex column;
 --text-align: center;
 --btn-brd-radius:5px 5px 5px 5px;
---background-color:rgb(119, 122, 119);
+--background-color:#484847;
 --transition-duration:0.3s;
 --background-color-for-submenu:rgba(0, 0, 0, 01);
 --padding-left-submenu:20px;
 --padding-top-submenu:20px;
+--btn-background-color: #E50914;
 }
 
 /*Header-style-start*/
@@ -122,6 +123,8 @@ ul li a:hover{
 .vipss-logo, .visa-logo {
   width: 80px;
   height: 35px;
+  margin-bottom: 5px;
+  
 }
 .title{
   font-weight: 800;
@@ -129,7 +132,7 @@ ul li a:hover{
   font-size: 30px;
 }
 .duration,.price{
-  font-weight: 100;
+  font-weight: 300;
 }
 .payment-methods,.basket{
   font-weight: 300;
@@ -144,6 +147,7 @@ ul li a:hover{
   display: flex;
   flex-direction: column;
   align-items: center;
+  
 }
 /*payment main style*/
 .payment-main{
@@ -172,7 +176,6 @@ margin: auto;
   justify-content: space-between;
   font-size: 16px;
   margin: 5px 0px;
-  
   text-transform: none;
   font-size: 15px;
 }
@@ -200,7 +203,7 @@ input [type=number]{
   text-decoration: none;
   padding: px;
   margin: auto;
-  background-color: #E50914;
+  background-color: var(--btn-background-color);
   width: 160px;
   height: 30px;
   border-radius: var(--btn-brd-radius);

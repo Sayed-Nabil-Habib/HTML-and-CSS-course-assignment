@@ -13,6 +13,7 @@ body{
 --mobile-menu-font-size:16px;
 --mobile-version-font-weight:200;
 --button-tex-color:black;
+--background-color:#484847;
 --border-radius:8px 8px 8px 8px;
 --display-flex: flex column;
 --margin:5px;
@@ -22,6 +23,7 @@ body{
 --background-color-for-submenu:rgba(0, 0, 0, 01);
 --padding-left-submenu:20px;
 --padding-top-submenu:20px;
+--btn-background-color: #E50914;
 
 }
 
@@ -105,8 +107,16 @@ ul li a:hover{
   color: var(--font-color);
   max-width: 800px;
   margin: auto;
-  background-color: rgb(119, 122, 119);;
+  background-color: var(--background-color);
   padding:var(--padding);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.contact-img{
+  display: none;
+  
 }
 .main-content{
   max-width: 400px;
@@ -125,7 +135,7 @@ ul li a:hover{
   text-align: center;
   padding: 8px;
   margin: auto;
-  background-color: var(--button-color);
+  background-color: var(--btn-background-color);
   width: 160px;
   height: 30px;
   border-radius: var(--border-radius);
@@ -164,7 +174,10 @@ form button{
   padding: var(--padding);
   font-size: 16px;
   color:var(--font-color);
-  background-color: var(--button-color);
+  background-color: var(--btn-background-color);
+  border: none;
+  width: 160px;
+  height: 30px;
   border-radius: var(--border-radius);
   padding: 8px;
 
@@ -172,7 +185,8 @@ form button{
 .button{
   display: flex;
   flex-direction: column;
-  align-items:end;
+  align-items:flex-end;
+ 
 
 }
 /*footer-style*/
@@ -228,5 +242,9 @@ form button{
 }
 .submenu{
   line-height: 2;
+}
+.contact-img{
+  display: block;
+  max-width: 400px;
 }
 }
