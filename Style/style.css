@@ -160,6 +160,9 @@ ul li a:hover{
   width: 210px;
   height: 290px;
 }
+
+/*slider*/
+
 .slider {
   max-width: 800px;
   height: 350px;
@@ -240,17 +243,15 @@ ul li a:hover{
 }
 .slider {
   max-width: 800px;
-
+  height: 350px;
   display: flex;
   flex-direction: column;
- 
-
+  
+  
 }
 .slide {
   width: auto;
   flex-shrink: 0;
  
-}
-  
 }
 }
