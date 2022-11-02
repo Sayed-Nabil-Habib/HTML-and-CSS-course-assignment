@@ -150,6 +150,11 @@ ul li a:hover{
   height: 259px;
   border-radius: var(--border-radius);
 }
+.movie-container img:hover{
+  background: var(--background-color-for-submenu);
+  border: 1px solid white;
+  
+}
 /*slider*/
 
 .slider {
@@ -160,11 +165,7 @@ ul li a:hover{
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
 }
-.slide {
-  width: auto;
-  flex-shrink: 0;
- 
-}
+
 /*footer-style*/
 .menu-footer{
   position: fixed;
@@ -221,14 +222,12 @@ ul li a:hover{
     line-height: 2;
   }
   .slider {
-    margin-top: 40px;
-    color: var(--font-color);
+    
+    max-width: 800px;
+    height: auto;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    font-weight: var(--mobile-version-font-weight);
-  }
+    }
   
 }
   

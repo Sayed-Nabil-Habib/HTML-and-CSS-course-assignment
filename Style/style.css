@@ -242,15 +242,8 @@ ul li a:hover{
 }
 .slider {
   max-width: 800px;
-  height: 350px;
+  height: auto;
   display: flex;
-  flex-direction: column;
-  
-  
-}
-.slide {
-  width: auto;
-  flex-shrink: 0;
- 
-}
+  flex-direction: row;
+  }
 }
