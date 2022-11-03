@@ -26,8 +26,6 @@ body{
 }
 
 /*Header-style-start*/
-
-
 header{
   margin-top: 10px;
   background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url("../images/intense.jpeg");
@@ -64,11 +62,9 @@ ul{
   list-style-type: none;
   margin: auto;
 }
-
 .menu{
   position: relative;
 }
-
 ul li a{
   color: var(--font-color);
   padding: 10px;
@@ -95,13 +91,9 @@ ul li a:hover{
   padding-left: var(--padding-left-submenu);
   cursor: pointer;
 }
-
 .menu li:hover > .submenu {
   display: block;
 }
-
-
-
 
 /*main start here*/
 .main{
@@ -119,7 +111,6 @@ ul li a:hover{
   padding: 20px;
   line-height: 0.7;
 }
-
 .successful{
   font-weight: 800;
   letter-spacing: 2px;
@@ -131,8 +122,6 @@ ul li a:hover{
 .duration{
   font-weight: 300;
 }
-
-
 .add-to-card{
   display: flex;
   align-items: center;
@@ -149,7 +138,6 @@ ul li a:hover{
 .add-to-card:hover{
   box-shadow: 5px 5px 15px 0 rgba(255, 255, 255, 0.24),0 5px 15px 0 rgba(255, 255, 255, 0.19);
 }
-  
 .add-to-card a{
   text-decoration: none;
   color: var(--font-color);
@@ -157,8 +145,6 @@ ul li a:hover{
   font-weight: 600;
   
 }
-
-
 
 /*footer-style*/
 .menu-footer{
@@ -174,6 +160,8 @@ ul li a:hover{
   width: 40px;
   height: 40px;
 }
+
+/*media-screen-start-here*/
 @media screen and (min-width: 800px) {
   
   .navigation{

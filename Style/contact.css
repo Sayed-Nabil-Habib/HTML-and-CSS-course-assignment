@@ -29,7 +29,6 @@ body{
 
 /*Header-style-start*/
 
-
 header{
   max-width: 800px;
   margin: auto;
@@ -106,8 +105,8 @@ ul li a:hover{
 .menu li:hover > .submenu {
   display: block;
 }
-/*main-style*/
 
+/*main-style*/
 .main{
   color: var(--font-color);
   max-width: 800px;
@@ -207,6 +206,7 @@ form button{
   width: 40px;
   height: 40px;
 }
+/*media-screen-start-here*/
 
 @media screen and (min-width: 800px) {
   

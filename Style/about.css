@@ -24,7 +24,6 @@ body{
 
 /*Header-style-start*/
 
-
 header{
   max-width: 800px;
   margin: auto;
@@ -97,6 +96,8 @@ ul li a:hover{
   display: block;
 }
 
+/*main-start-here*/
+
 .main{
   margin-top: 0px;
   color: var(--font-color);
@@ -127,6 +128,7 @@ ul li a:hover{
   width: 40px;
   height: 40px;
 }
+/*media-screen-start-here*/
 
 @media screen and (min-width: 800px) {
   
