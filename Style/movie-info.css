@@ -203,6 +203,9 @@ ul li a:hover{
   max-width: 1920px;
   margin: auto;
 }
+label{
+  display: none;
+}
 
 .menu-footer{
   display: none;

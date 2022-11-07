@@ -229,6 +229,9 @@ form button{
   max-width: 1920px;
   margin: auto;
 }
+label{
+  display: none;
+}
 .container{
   max-width: 120px;
   height: 25px;
