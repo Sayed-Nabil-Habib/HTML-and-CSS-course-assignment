@@ -37,6 +37,9 @@ header{
   width: 100%;
   padding: var(--padding);
 }
+label{
+  display: none;
+}
 nav{
   max-width: 800px;
   margin: auto;
