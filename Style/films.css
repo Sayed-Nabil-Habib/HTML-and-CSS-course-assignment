@@ -106,6 +106,7 @@ ul li a:hover{
 }
 .header-text h1{
   font-weight: 800;
+  
 }
 
 .header-text p{
@@ -207,7 +208,7 @@ ul li a:hover{
     background-color: white;
   }
   header{
-    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.4)), url("../images/intense.jpeg");
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url("../images/intense.jpeg");
     background-position: center;
     max-width: 1920px;
     margin: auto;
