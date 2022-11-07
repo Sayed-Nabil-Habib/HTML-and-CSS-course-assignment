@@ -250,6 +250,7 @@ form button{
 .contact-img{
   display: block;
   max-width: 400px;
+  max-height: 500px;
 }
 nav ul input{
   height: 20px;
