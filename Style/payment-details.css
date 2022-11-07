@@ -263,7 +263,9 @@ input [type=number]{
   max-width: 1920px;
   margin: auto;
 }
-
+.label-search-payment{
+  display: none;
+}
 .menu-footer{
   display: none;
 }
