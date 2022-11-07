@@ -107,12 +107,14 @@ ul li a:hover{
 .header-text h1{
   font-weight: 800;
   font-size: 40px;
+  box-shadow: 5px 5px 15px 0 rgba(255, 255, 255, 0.24),0 5px 15px 0 rgba(255, 255, 255, 0.19);
   
 }
 
 .header-text p{
   font-weight: var(--mobile-version-font-weight);
   font-size: 16px;
+  box-shadow: 5px 5px 15px 0 rgba(255, 255, 255, 0.24),0 5px 15px 0 rgba(255, 255, 255, 0.19);
 }
 
 .hero-btn{
