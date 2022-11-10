@@ -27,7 +27,7 @@ To reach the website,please click on the link below
 
 ## Help
 
-you can find contact and about uner link (More), I have changed the name for this section from Categoires, since it was a wronge naming for this part, and a feedback from teacher helped to find out the mistake, therefore I have changed the name.
+you can find contact and about under link (More), I have changed the name for this section from Categoires, since it was a wrong naming for this part, and a feedback from teacher helped to find out the mistake, therefore I have changed the name.
 
 ## Authors
 
