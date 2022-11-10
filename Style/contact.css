@@ -126,7 +126,7 @@ ul li a:hover{
   
 }
 .main-content{
-  max-width: 400px;
+  width: 100%;
   margin: var(--margin);
 }
 .main h3{
@@ -134,7 +134,10 @@ ul li a:hover{
   font-size: var(--mobile-version-font-weight);
   font-size: var(--mobile-menu-font-size);
 }
-
+#your-name, #email-adress, #your-message{
+  font-size: 16px;
+  text-transform: uppercase;
+}
 .contact-button  {
   padding: 5px;
   background-color: var(--btn-background-color);
@@ -154,6 +157,7 @@ ul li a:hover{
 }
 
 .form-container{
+  margin: auto;
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -161,15 +165,15 @@ ul li a:hover{
 }
 
 .container{
-  max-width: 120px;
-  height: 25px;
+  max-width: 800px;
+  height: 35px;
   margin: var(--margin);
   padding: var(--padding);
 }
 
 .container-message{
-  height: 90px;
-  max-width: 320px;
+  height: 150px;
+  max-width: 780px;
   margin: var(--margin);
   padding: var(--padding);
 }
@@ -253,10 +257,20 @@ label{
 .submenu{
   line-height: 2;
 }
+.main-content{
+  width: 400px;
+  margin: var(--margin);
+}
+.container{
+  max-width: 400px;
+  height: 35px;
+  margin: var(--margin);
+  padding: var(--padding);
+}
 .contact-img{
   display: block;
-  max-width: 400px;
-  max-height: 500px;
+  max-width: 420px;
+  max-height: 530px;
 }
 nav ul input{
   height: 20px;
