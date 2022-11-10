@@ -33,7 +33,6 @@ header{
   max-width: 800px;
   margin: auto;
   margin-top: 10px;
- 
   width: 100%;
   padding: var(--padding);
 }
@@ -127,7 +126,7 @@ ul li a:hover{
 }
 .main-content{
   width: 100%;
-  margin: var(--margin);
+  margin:5px 0px;
 }
 .main h3{
   text-transform: uppercase;
