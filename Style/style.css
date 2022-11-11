@@ -1,5 +1,6 @@
 *{
   padding: 0;
+  box-sizing: border-box;
 }
 body{
   background-color: black;
@@ -117,7 +118,8 @@ ul li a:hover{
 
 .hero-btn{
   background-color: white;
-  max-width: 50px;
+  max-width: 90px;
+  max-height: 30px;
   padding:0px 20px; 
   float: right; 
   margin-right: 30px;

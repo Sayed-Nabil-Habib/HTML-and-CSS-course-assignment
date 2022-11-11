@@ -1,5 +1,6 @@
 *{
   padding: 0;
+  box-sizing: border-box;
 }
 body{
   background-color: black;
@@ -147,7 +148,7 @@ ul li a:hover{
   margin: auto;
   background-color: #E50914;
   width: 160px;
-  height: 30px;
+  height: 40px;
   border-radius: var(--btn-brd-radius);
   transition-duration: var(--transition-duration);
   box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.2), 0 5px 20px 0 rgba(0, 0, 0, 0.19);

@@ -1,5 +1,6 @@
 *{
   padding: 0;
+  box-sizing: border-box;
 }
 body{
   background-color: black;
@@ -200,7 +201,6 @@ input [type=number]{
   flex-direction: row;
   justify-content: space-between;
   margin: 0px 0px 0px 0px;
-  j
 }
 
 .pay-now{
@@ -213,7 +213,7 @@ input [type=number]{
   margin: auto;
   background-color: var(--btn-background-color);
   width: 160px;
-  height: 30px;
+  height: 40px;
   border-radius: var(--btn-brd-radius);
   transition-duration: var(--transition-duration);
   box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.2), 0 5px 20px 0 rgba(0, 0, 0, 0.19);
